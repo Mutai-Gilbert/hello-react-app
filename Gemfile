@@ -70,3 +70,10 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+gem 'jsbundling-rails'
+
+# Gemfile
+
+group :production, :development do
+  gem 'pg'
+end
